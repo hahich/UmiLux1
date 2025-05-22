@@ -403,7 +403,7 @@
     z-index: 31
 }
 
-.banner-text h1 {
+.banner-text h2 {
     font-size: clamp(2.6rem, 4.7vw, var(--header-font-size));
     font-weight: var(--fw-600);
     margin-bottom: 28px;
@@ -464,7 +464,7 @@
     transform: translate(-50%, -50%)
 }
 
-.banner-item.active .banner-text h1,
+.banner-item.active .banner-text h2,
 .banner-item.active .banner-text p,
 .banner-item.active .banner-text .shop-now {
     opacity: 1
@@ -1212,12 +1212,12 @@
     flex-direction: column
 }
 
-.deals-card-title h1 {
+.deals-card-title h2 {
     color: var(--white);
     font-size: 40px
 }
 
-.deals-card-title h1 span {
+.deals-card-title h2 span {
     font-size: 60px;
     color: #ACDC54
 }
