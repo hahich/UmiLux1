@@ -406,7 +406,7 @@
 .banner-text h1 {
     font-size: clamp(2.6rem, 4.7vw, var(--header-font-size));
     font-weight: var(--fw-600);
-    margin-bottom: 10px;
+    margin-bottom: 28px;
     opacity: 0;
     transition: opacity 0.8s
 }
@@ -543,12 +543,17 @@
 
 .section-title {
     font-size: var(--fs-28);
-    font-weight: var(--fw-600)
+    font-weight: var(--fw-600);
+    letter-spacing: 0px;
 }
 
-.section-right,
+.section-right{
+    gap: var(--gap-10);
+    letter-spacing: -0.5px;
+}
+
 .section-deals-timer {
-    gap: var(--gap-10)
+    gap: 5px;
 }
 
 .timer {
@@ -859,7 +864,6 @@
     display: var(--flex);
     flex-direction: column;
     gap: 5px;
-    margin-top: 10px
 }
 
 .section-text-s,
@@ -956,7 +960,7 @@
 }
 
 .section-selling-header {
-    margin: 60px 24px 0
+    margin: 44px 15px 0
 }
 
 .section-right:hover a svg path {
@@ -1030,7 +1034,7 @@
 }
 
 .section-bottom-wrapper {
-    margin-bottom: 60px
+    margin-bottom: 44px
 }
 
 .section-sell-carousel-container {
@@ -1054,9 +1058,14 @@
 
 .section-sell-product-inner {
     background-color: var(--white);
+    align-items: flex-start !important;
     border-radius: 5px;
     padding: 12px 20px;
     height: 100%
+}
+
+.section-sell-wrap-text {
+    margin-top: 34px;
 }
 
 .section-sell-product-card:nth-child(odd) .section-sell-product-price .section-sell-current-price {
@@ -1141,7 +1150,7 @@
 #section-footer-bottom {
     width: var(--container-width);
     max-width: 100%;
-    padding: 0 24px;
+    /* padding: 0 24px; */
     margin: 0 auto;
     position: relative
 }
@@ -1150,7 +1159,7 @@
     display: var(--flex);
     scroll-behavior: smooth;
     gap: 10px;
-    user-select: none
+    user-select: none;
 }
 
 .products-wrapper-recommend.dragging {
@@ -1170,9 +1179,8 @@
 
 .product-image-recommend {
     width: 100%;
-    height: 180px;
+    height: 100%;
     object-fit: contain;
-    margin-bottom: 10px
 }
 
 .section-promotions-blog {
