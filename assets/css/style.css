@@ -376,7 +376,8 @@
     height: 100%;
     opacity: 0;
     transition: opacity 0.8s ease-in-out;
-    pointer-events: none
+    pointer-events: none;
+    aspect-ratio: 1920/500;
 }
 
 .banner-item.active {
@@ -389,7 +390,6 @@
     height: 500px;
     object-fit: cover;
     display: block;
-    object-position: 80% 0%
 }
 
 .banner-text {
