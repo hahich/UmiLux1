@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="UmiLux - Your one-stop shop for all your needs.">
     <title>UmiLux</title>
-    <!-- preload -->
-    <link rel="preload" as="image" href="./assets/img/banner-lg.jpg" fetchpriority="high">
     <!-- CSS -->
     <link rel="stylesheet" crossorigin="anonymous" href="./assets/css/main.css">
     <link rel="stylesheet" crossorigin="anonymous" href="./assets/css/style.css">
     <link rel="stylesheet" crossorigin="anonymous" href="./assets/css/responsive.css">
     <link rel="stylesheet" crossorigin="anonymous" href="./assets/css/sectionFadein.css">
+    <!-- preload -->
+    <link rel="preload" as="image" href="./assets/img/banner-lg.jpg" type="image/jpg" fetchpriority="high">
     <!-- BOOSTRAP -->
     <link rel="stylesheet" crossorigin="use-credentials" href="./assets/css/bootstrap.min.css">
-    <!-- JQUERY -->
-    <script src="./assets/js/jquery.min.js" defer></script>
     <!-- OWL Carousel -->
     <link rel="stylesheet" crossorigin="anonymous" href="./assets/owl-carousel/owl.carousel.min.css">
     <link rel="stylesheet" crossorigin="anonymous" href="./assets/owl-carousel/owl.theme.default.min.css">
     <script defer src="./assets/owl-carousel/owl.carousel.min.js"></script>
+      <!-- JQUERY -->
+    <script src="./assets/js/jquery.min.js" defer></script>
 </head>
 
 <body>
@@ -545,7 +545,7 @@
         <section id="banner" class="">
             <div class="banner-inner">
                 <div class="banner-item active">
-                    <img srcset="./assets/img/banner-sm.jpg 600w, ./assets/img/banner-lg.jpg 1200w"
+                    <img data-srcset="./assets/img/banner-sm.jpg 600w, ./assets/img/banner-lg.jpg 1200w"
                         sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 50vw"
                         src="./assets/img/banner-sm.jpg" alt="Forest Style Mechanical Keyboard" loading="eager"
                         decoding="async" fetchpriority="high">
@@ -556,7 +556,7 @@
                     </div>
                 </div>
                 <div class="banner-item">
-                    <img srcset="./assets/img/banner-sm.jpg 600w, ./assets/img/banner-lg.jpg 1200w"
+                    <img data-srcset="./assets/img/banner-sm.jpg 600w, ./assets/img/banner-lg.jpg 1200w"
                         sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 50vw" width="1920" height="500"
                         src="./assets/img/banner-sm.jpg" alt="Keyboard" loading="eager" decoding="async"
                         fetchpriority="low">
@@ -567,7 +567,7 @@
                     </div>
                 </div>
                 <div class="banner-item">
-                    <img srcset="./assets/img/banner-sm.jpg 600w, ./assets/img/banner-lg.jpg 1200w"
+                    <img data-srcset="./assets/img/banner-sm.jpg 600w, ./assets/img/banner-lg.jpg 1200w"
                         sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 50vw" width="1920" height="500"
                         src="./assets/img/banner-sm.jpg" alt="Keyboard" loading="eager" decoding="async"
                         fetchpriority="low">
@@ -731,7 +731,7 @@
                 </div>
 
                 <div class="section-categories-img">
-                    <img srcset="./assets/img/categories/phone-sm.png 1x, ./assets/img/categories/phone-lg.png 2x"
+                    <img data-srcset="./assets/img/categories/phone-sm.png 1x, ./assets/img/categories/phone-lg.png 2x"
                         alt="Phone" loading="lazy">
                 </div>
             </div>
@@ -771,7 +771,7 @@
                         <div class="section-img">
                             <img src="./assets/img/products_deals/deals-1-lg.png" alt="galaxy s21 ultra" loading="lazy"
                                 fetchpriority="low"
-                                srcset="./assets/img/products_deals/deals-1-sm.png 600w, ./assets/img/products_deals/deals-1-lg.png 1200w"
+                                data-srcset="./assets/img/products_deals/deals-1-sm.png 600w, ./assets/img/products_deals/deals-1-lg.png 1200w"
                                 sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 50vw">
                             <div class="section-icon">
                                 <div class="icon-position flex-center heart">
@@ -843,7 +843,7 @@
                         <div class="section-img">
                             <img src="./assets/img/products_deals/deals-2-lg.png" alt="galaxy s21 ultra" loading="lazy"
                                 fetchpriority="low"
-                                srcset="./assets/img/products_deals/deals-2-sm.png 600w, ./assets/img/products_deals/deals-2-lg.png 1200w"
+                                data-srcset="./assets/img/products_deals/deals-2-sm.png 600w, ./assets/img/products_deals/deals-2-lg.png 1200w"
                                 sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 50vw">
                             <div class="section-icon">
                                 <div class="icon-position flex-center heart">
@@ -919,7 +919,7 @@
                         <div class="section-img">
                             <img src="./assets/img/products_deals/deals-3-lg.png" alt="galaxy s21 ultra" loading="lazy"
                                 fetchpriority="low"
-                                srcset="./assets/img/products_deals/deals-3-sm.png 600w, ./assets/img/products_deals/deals-3-lg.png 1200w"
+                                data-srcset="./assets/img/products_deals/deals-3-sm.png 600w, ./assets/img/products_deals/deals-3-lg.png 1200w"
                                 sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 50vw">
                             <div class="section-icon">
                                 <div class="icon-position flex-center heart">
@@ -991,7 +991,7 @@
                         <div class="section-img">
                             <img src="./assets/img/products_deals/deals-4-lg.png" alt="galaxy s21 ultra" loading="lazy"
                                 fetchpriority="low"
-                                srcset="./assets/img/products_deals/deals-4-sm.png 600w, ./assets/img/products_deals/deals-4-lg.png 1200w"
+                                data-srcset="./assets/img/products_deals/deals-4-sm.png 600w, ./assets/img/products_deals/deals-4-lg.png 1200w"
                                 sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 50vw">
                             <div class="section-icon">
                                 <div class="icon-position flex-center heart">
@@ -1062,7 +1062,7 @@
                         <div class="section-img">
                             <img src="./assets/img/products_deals/deals-5-lg.png" alt="galaxy s21 ultra" loading="lazy"
                                 fetchpriority="low"
-                                srcset="./assets/img/products_deals/deals-5-sm.png 600w, ./assets/img/products_deals/deals-5-lg.png 1200w"
+                                data-srcset="./assets/img/products_deals/deals-5-sm.png 600w, ./assets/img/products_deals/deals-5-lg.png 1200w"
                                 sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 50vw">
                             <div class="section-icon">
                                 <div class="icon-position flex-center heart">
