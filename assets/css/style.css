@@ -797,7 +797,7 @@
 
 .section-img,
 .section-sell-product-image {
-    overflow: hidden;
+    width: 100%;
     position: relative
 }
 
