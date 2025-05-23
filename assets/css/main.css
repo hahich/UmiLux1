@@ -106,11 +106,6 @@ body {
     font-size: 16px;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-}
-
 a {
     text-decoration: none !important;
     color: var(--black) !important;
