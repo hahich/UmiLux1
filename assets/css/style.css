@@ -1158,6 +1158,7 @@
 }
 
 .products-wrapper-recommend {
+    overflow: hidden;
     display: var(--flex);
     scroll-behavior: smooth;
     gap: 10px;
