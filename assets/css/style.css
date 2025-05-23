@@ -359,7 +359,6 @@
 #banner {
     width: 100%;
     position: relative;
-    overflow: hidden
 }
 
 .banner-inner {
@@ -797,7 +796,8 @@
 .section-img,
 .section-sell-product-image {
     width: 100%;
-    position: relative
+    position: relative;
+    overflow: hidden;
 }
 
 .section-preorder {
@@ -1154,6 +1154,10 @@
     position: relative
 }
 
+.product-img-wrapper {
+    overflow: hidden;
+}
+
 .products-wrapper-recommend {
     display: var(--flex);
     scroll-behavior: smooth;
@@ -1187,8 +1191,13 @@
     gap: 30px
 }
 
-.deals-card:hover {
-    cursor: pointer
+.deals-card:hover  {
+    cursor: pointer;
+}
+
+.deals-card-img,
+.deals-card {
+    overflow: hidden;
 }
 
 .deals-card img,
@@ -1204,6 +1213,11 @@
     object-position: 0% 28%
 }
 
+.deals-card img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out
+}
+
 .deals-card-title {
     background-color: var(--black);
     text-transform: uppercase;
@@ -1214,6 +1228,11 @@
 .deals-card-title h2 {
     color: var(--white);
     font-size: 40px
+}
+
+.deals-card-title:hover h2{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out
 }
 
 .deals-card-title h2 span {

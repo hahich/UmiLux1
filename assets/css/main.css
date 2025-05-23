@@ -163,6 +163,11 @@ select {
     background-color: inherit;
 }
 
+svg:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
 .divider {
     width: 100%;
     height: 1px;
