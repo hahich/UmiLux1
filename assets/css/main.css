@@ -43,6 +43,7 @@
     src: url(../fonts/Geostar_Fill/GeostarFill-Regular.ttf);
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }
 
 /* Root Variables */
@@ -108,7 +109,6 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    gap: 60px;
 }
 
 a {
