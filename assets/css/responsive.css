@@ -152,6 +152,10 @@
         padding: 10px 20px
     }
 
+    #section-shipping {
+        flex-wrap: wrap;
+    }
+
     .footer-about,
     .footer-newsletter {
         flex: 0;
