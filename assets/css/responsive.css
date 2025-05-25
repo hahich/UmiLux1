@@ -213,7 +213,7 @@
     }
 
     #banner {
-        height: 400px;
+        height: 400px !important;
         overflow: hidden
     }
 
@@ -331,6 +331,11 @@
     .mobile-menu-header span,
     .mobile-menu-title span {
         font-size: 14px
+    }
+
+    #banner {
+        height: 400px !important;
+        overflow: hidden
     }
 
     .banner-item img {
