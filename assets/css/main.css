@@ -140,13 +140,17 @@ img {
     object-fit: cover;
     display: block;
 }
-/* 
-img:hover {
+
+.section-img:hover img,
+.section-sell-product-card:hover img,
+.product-img-wrapper:hover img {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
-} */
+}
 
-img:not(:hover) {
+.section-img:not(:hover) img,
+.section-sell-product-card:not(:hover) img,
+.product-img-wrapper:not(:hover) img {
     transform: scale(1.0);
     transition: transform 0.3s ease-in-out;
 }
