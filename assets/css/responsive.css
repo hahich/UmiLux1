@@ -276,6 +276,10 @@
         padding: 10px 20px
     }
 
+    .deal-card {
+        padding: 0 10px
+    }
+
     .footer-email-input input {
         padding: 15px 20px;
         margin-bottom: 10px
@@ -406,6 +410,10 @@
     .product-card-recommend {
         flex: 0 0 100% !important;
         min-width: 100% !important
+    }
+
+    .deal-card {
+        padding: 0 10px
     }
 
     .deals-card-title h2 {
