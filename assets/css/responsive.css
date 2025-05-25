@@ -201,7 +201,7 @@
     }
 
     #banner {
-        height: 400px;
+        min-height: 400px !important;
         overflow: hidden
     }
 
@@ -334,7 +334,7 @@
     }
 
     #banner {
-        height: 400px !important;
+        min-height: 400px !important;
         overflow: hidden
     }
 
