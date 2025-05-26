@@ -116,6 +116,11 @@ a:hover {
     transition: color 0.3s ease-in-out !important;
 }
 
+a:active {
+    color: var(--dark-navy-blue) !important;
+    transition: color 0.3s ease-in-out !important;
+}
+
 ul,
 p {
     list-style: none;
