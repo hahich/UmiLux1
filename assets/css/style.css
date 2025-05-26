@@ -1640,6 +1640,10 @@
     display: var(--flex)
 }
 
+.mobile-menu-title span {
+    font-size: 10px;
+}
+
 .mobile-arrow {
     font-size: 12px;
     color: var(--gray)

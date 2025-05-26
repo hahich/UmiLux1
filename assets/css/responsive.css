@@ -328,6 +328,10 @@
     .footer-service-wrapper {
         width: 100% !important
     }
+
+    .submit {
+        width: 100%;
+    }
 }
 
 @media (max-width:575px) {
@@ -466,5 +470,14 @@
 
     .footer-payment {
         gap: 0px;
+    }
+
+    .submit {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .mobile-menu-title span {
+        font-size: 12px;
     }
 }
