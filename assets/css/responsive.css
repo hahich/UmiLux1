@@ -290,7 +290,7 @@
     }
 
     .footer-payment {
-        gap: 0
+        gap: 0px;
     }
 
     .footer-about,
@@ -462,5 +462,9 @@
 
     .text-center {
         margin-bottom: 10px
+    }
+
+    .footer-payment {
+        gap: 0px;
     }
 }
